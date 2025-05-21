@@ -13,7 +13,7 @@ require (
 	github.com/cespare/xxhash/v2 v2.1.1 // indirect
 	github.com/golang/protobuf v1.4.3 // indirect
 	github.com/klauspost/cpuid v1.2.5 // indirect
-	github.com/libdns/libdns v0.2.3 // indirect
+	github.com/libdns/libdns v1.1.0 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.1 // indirect
 	github.com/mholt/acmez v0.1.1 // indirect
 	github.com/miekg/dns v1.1.30 // indirect
