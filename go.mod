@@ -4,7 +4,7 @@ go 1.22.2
 
 require (
 	github.com/caddyserver/caddy/v2 v2.3.0
-	github.com/dhostx/libdns_kyberio v0.0.2
+	github.com/dhostx/libdns_kyberio v0.0.3
 )
 
 require (
