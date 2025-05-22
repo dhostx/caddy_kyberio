@@ -1,7 +1,6 @@
 package caddy_kyberio
 
 import (
-	"fmt"
 	"github.com/caddyserver/caddy/v2"
 	"github.com/caddyserver/caddy/v2/caddyconfig/caddyfile"
 	"github.com/dhostx/libdns_kyberio"
@@ -50,7 +49,6 @@ func (p *Provider) UnmarshalCaddyfile(d *caddyfile.Dispenser) error {
 					return d.Err("API token already set")
 				}
 				p.Provider.APIToken = d.Val()
-				fmt.Printf("Kyberio Domainrobot API token: %s\n", p.Provider.APIToken)
 				if d.NextArg() {
 					return d.ArgErr()
 				}

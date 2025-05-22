@@ -1,4 +1,4 @@
-# Kzberio module for Caddy
+# Kyberio module for Caddy
 
 This package contains a DNS provider module for [Caddy](https://github.com/caddyserver/caddy). It can be used to manage DNS records with Kyberio's Domainrobot accounts.
 
@@ -41,4 +41,4 @@ You can replace `{env.THE_ZONE_KEY}` with the actual auth token if you prefer to
 
 ## Authenticating
 
-For each zone, a zone key is required. To generate the key, access your DNS entry in the Domainrobot, click on "Passwort für dynamic DNS generieren" and save the zone.
+For each zone, a zone key is required. To generate the key, open your DNS record in the Domainrobot, click on "Passwort für dynamic DNS generieren" and save the zone. The generated password will be shown in the form.
