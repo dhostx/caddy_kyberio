@@ -7,7 +7,7 @@ import (
 )
 
 // Provider wraps the provider implementation as a Caddy module.
-type Provider struct{ *sdns.Provider }
+type Provider struct{ *libdns_kyberio.Provider }
 
 func init() {
 	caddy.RegisterModule(Provider{})
@@ -17,7 +17,7 @@ func init() {
 func (Provider) CaddyModule() caddy.ModuleInfo {
 	return caddy.ModuleInfo{
 		ID:  "dns.providers.kyberio",
-		New: func() caddy.Module { return &Provider{new(sdns.Provider)} },
+		New: func() caddy.Module { return &Provider{new(libdns_kyberio.Provider)} },
 	}
 }
 
